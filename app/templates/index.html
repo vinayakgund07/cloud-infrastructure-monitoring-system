@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Cloud Infrastructure Monitoring System</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>
+<i class="fa-solid fa-cloud"></i>
+Cloud Infrastructure Monitoring System
+</h1>
+
+<div class="status">
+<i class="fa-solid fa-circle"></i>
+Application Running
+</div>
+
+</header>
+
+<div class="container">
+
+<div class="card">
+
+<i class="fa-solid fa-server"></i>
+
+<h3>Hostname</h3>
+
+<p>{{ hostname }}</p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-brands fa-linux"></i>
+
+<h3>Operating System</h3>
+
+<p>{{ os }}</p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-clock"></i>
+
+<h3>Current Time</h3>
+
+<p>{{ time }}</p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-heart-pulse"></i>
+
+<h3>Health</h3>
+
+<p class="healthy">Healthy</p>
+
+</div>
+
+</div>
+
+<div class="dashboard">
+
+<div class="box">
+
+<h2>Monitoring Services</h2>
+
+<ul>
+
+<li>Amazon EC2</li>
+
+<li>CloudWatch</li>
+
+<li>Amazon SNS</li>
+
+<li>AWS Lambda</li>
+
+<li>Amazon S3</li>
+
+<li>Terraform</li>
+
+<li>Docker</li>
+
+<li>Jenkins</li>
+
+</ul>
+
+</div>
+
+<div class="box">
+
+<h2>Project Features</h2>
+
+<ul>
+
+<li>Infrastructure as Code</li>
+
+<li>CI/CD Pipeline</li>
+
+<li>Cloud Monitoring</li>
+
+<li>Email Alerts</li>
+
+<li>Auto-Healing</li>
+
+<li>Docker Deployment</li>
+
+<li>Secure IAM Access</li>
+
+<li>Log Storage</li>
+
+</ul>
+
+</div>
+
+</div>
+
+<footer>
+
+Developed by Vinayak Gund
+
+</footer>
+
+</body>
+
+</html>
