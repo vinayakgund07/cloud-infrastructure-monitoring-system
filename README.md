@@ -51,6 +51,7 @@ This project demonstrates:
 | SSH | Secure Remote Access |
 
 # 📁 Project Structure
+
 cloud-infrastructure-monitoring-system/
 │
 ├── app/
