@@ -53,6 +53,7 @@ This project demonstrates:
 # 📁 Project Structure
 
 cloud-infrastructure-monitoring-system/
+
 │
 ├── app/
 │   ├── app.py
